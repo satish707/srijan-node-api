@@ -4,6 +4,8 @@ const app = express()
 
 app.use('/api/fizzbuzz', router)
 
-app.listen(3001, () => {
+var server = app.listen(3001, () => {
     console.log('server running at 3001 port')
 })
+
+module.exports = server;
