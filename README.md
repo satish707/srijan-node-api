@@ -16,3 +16,9 @@ Buzz Fizz node api
 ## Unit Test
    
    npm run test
+   
+## api route
+    
+    - api/fizzbuzz/:count
+     
+          localhost:3001/api/fizzbuzz/100
