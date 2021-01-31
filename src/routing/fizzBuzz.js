@@ -11,7 +11,7 @@ router.get('/:count', validateParams.validateParams([
     }]), FizzBuzzController.getFizzBuzz);
 
 router.all('/', (req, res) => {
-    res.status(403).send('Route not found.')
+    res.status(404).send('Route not found.')
 })
 
 module.exports = router;
